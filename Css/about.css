@@ -1,0 +1,71 @@
+.why-choose {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.why-boxes {
+    background-color: white;
+    padding: 10px;
+    width: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.why-boxes .fa {
+    font-size: 350%;
+    color: rgb(134, 134, 134);
+}
+
+.why-boxes p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.why-boxes:hover .fa {
+    color: #00729b;
+}
+
+.value-section {
+    /* background-color: #00c3ff46 !important; */
+    background: url("/images/pngguru.com.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-attachment: fixed;
+}
+
+.like-to {
+    color: #00729b;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 60%;
+}
+
+.value-boxes {
+    background: #00729b0e;
+    padding: 15px;
+    width: 33vh;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.value-boxes .fa {
+    font-size: 200%;
+    color: #00c3ff7e;
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | A8</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./icons/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link href="./Css/styled.css" rel="stylesheet" type="text/css">
+
+    <!-- jquery  -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <!-- vue -->
+    <script src="./js/vue.js"></script>
+    <!-- javascript -->
+    <script defer src="./js/spine.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid c1">
+        <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">A8interactive</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active mx-sm-1">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-sm-1">
+                            <a class="nav-link" href="./About.html">About</a>
+                        </li>
+                        <li class="nav-item mx-sm-1">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item mx-sm-1">
+                        <a class="nav-link" href="#">Explore</a>
+                    </li> -->
+                        <li class="nav-item mx-sm-1">
+                            <a class="btn btn-outline-primary" href="#">Start New Project</a>
+                        </li>
+                        <!-- <li class="nav-item mx-sm-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li> -->
+                        <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron p-0 m-0 rounded-0 s1">
+                <div class="s1_text_con">
+                    <p class="lead">
+                        Ideas to Life
+                    </p>
+                    <p class="s1-detail text-muted">Be your business a startup or a grown establishment, it
+                        however, deserves an updated, unique and refurbished representation in the digital space.</p>
+                    <button class="btn btn-primary">Explore Our ability</button>
+                </div>
+
+                <div class="s1_img_con">
+
+                </div>
+
+
+                <div
+                    class="jumbotron bg-transparent arrow-con d-flex justify-content-center align-items-center m-0 p-0">
+                    <p class="arrow-down text-center m-0">&#8682;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="jumbotron bg-transparent s2">
+            <p class="lead text-center">Our Services</p>
+            <div class="d-flex justify-content-center">
+                <p class="s2-detail text-center">
+
+                    In addition to our trainings, we have a pool of solutions to your business growth, creating an image
+                    for
+                    your brand and building world class products.</p>
+            </div>
+            <div
+                class="jumbotron bg-transparent mx-2 p-2 s2-flex-right d-flex justify-content-center align-items-center flex-wrap">
+
+
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-code"></i>
+                    <p class="text-capitalize feature_title ">web development</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">school</p>
+                        <p class="feature_tags">hospital</p>
+                        <p class="feature_tags">e-commerce</p>
+                        <p class="feature_tags">banking</p>
+                        <p class="feature_tags">estate</p>
+                        <p class="feature_tags">transport</p>
+                        <p class="feature_tags">hotel</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-mobile-alt"></i>
+                    <p class="text-capitalize feature_title">app development</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">ios</p>
+                        <p class="feature_tags">android</p>
+                        <p class="feature_tags">cross platform apps</p>
+                        <p class="feature_tags">VR</p>
+                        <p class="feature_tags">game</p>
+                        <p class="feature_tags">PWAs</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-paint-brush"></i>
+                    <p class="text-capitalize feature_title">graphics</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">Windows</p>
+                        <p class="feature_tags">mac</p>
+                        <p class="feature_tags">linux</p>
+                        <p class="feature_tags">Enterprise</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-cloud"></i>
+                    <p class="text-capitalize feature_title">cloud services</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">AWS</p>
+                        <p class="feature_tags">hosting</p>
+                        <p class="feature_tags">data science</p>
+                        <p class="feature_tags">SSL</p>
+                        <p class="feature_tags">IOT</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-search"></i>
+                    <p class="text-capitalize feature_title">digital marketing</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">SEO optimization</p>
+                        <p class="feature_tags">Google adsense</p>
+                        <p class="feature_tags">content</p>
+                        <p class="feature_tags">Google business address</p>
+                        <p class="feature_tags">Facebook ads</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-ellipsis-h"></i>
+                    <p class="text-capitalize feature_title">more</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="jumbotron bg-transparent s2">
+
+            <div
+                class="jumbotron bg-transparent mx-2 p-2 s2-flex-right d-flex justify-content-center align-items-center flex-wrap">
+
+
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box" id="our_service-con">
+                    <p class="lead">Our Services</p>
+                    <p class="s2-detail text-center">
+
+                        In addition to our trainings, we have a pool of solutions to your business growth, creating
+                        an image
+                        for
+                        your brand and building world class products.</p>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-code"></i>
+                    <p class="text-capitalize feature_title ">web development</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">school</p>
+                        <p class="feature_tags">hospital</p>
+                        <p class="feature_tags">e-commerce</p>
+                        <p class="feature_tags">banking</p>
+                        <p class="feature_tags">estate</p>
+                        <p class="feature_tags">transport</p>
+                        <p class="feature_tags">hotel</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-mobile-alt"></i>
+                    <p class="text-capitalize feature_title">app development</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">ios</p>
+                        <p class="feature_tags">android</p>
+                        <p class="feature_tags">cross platform apps</p>
+                        <p class="feature_tags">VR</p>
+                        <p class="feature_tags">game</p>
+                        <p class="feature_tags">PWAs</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-paint-brush"></i>
+                    <p class="text-capitalize feature_title">graphics</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">Windows</p>
+                        <p class="feature_tags">mac</p>
+                        <p class="feature_tags">linux</p>
+                        <p class="feature_tags">Enterprise</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-cloud"></i>
+                    <p class="text-capitalize feature_title">cloud services</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">AWS</p>
+                        <p class="feature_tags">hosting</p>
+                        <p class="feature_tags">data science</p>
+                        <p class="feature_tags">SSL</p>
+                        <p class="feature_tags">IOT</p>
+                        <p class="feature_tags">...</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-search"></i>
+                    <p class="text-capitalize feature_title">digital marketing</p>
+                    <div class="tags_con">
+                        <p class="feature_tags">SEO optimization</p>
+                        <p class="feature_tags">Google adsense</p>
+                        <p class="feature_tags">content</p>
+                        <p class="feature_tags">Google business address</p>
+                        <p class="feature_tags">Facebook ads</p>
+                    </div>
+                </div>
+                <div class="jumbotron p-3 py-4 shadow-none border border feature_box">
+                    <i class="fa fa-ellipsis-h"></i>
+                    <p class="text-capitalize feature_title">more</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron m-0 rounded-0 strip">
+        <p class="strip-lead">Ready to get started?</p>
+        <h6 class="strip-detail">Start a new project today with a solid team</h6>
+        <button class="btn btn-primary">Start New Project
+
+        </button>
+    </div>
+    <div class="jumbotron m-0 footer">
+        <div class="jumbotron footer-con p-3">
+            <h6 class="footer-con-title">Social</h6>
+
+            <ul class="list-group">
+                <a href="#" class="list-group-item"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="list-group-item"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="list-group-item"><i class="fab fa-facebook-messenger"></i></a>
+
+            </ul>
+        </div>
+        <div class="jumbotron footer-con p-3">
+            <h6 class="footer-con-title">Contact</h6>
+
+            <ul class="list-group">
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+
+            </ul>
+        </div>
+        <div class="jumbotron footer-con p-3">
+            <h6 class="footer-con-title">A8interactive</h6>
+
+            <ul class="list-group">
+                <a href="#" class="list-group-item">
+                    Home
+                </a>
+                <a href="#" class="list-group-item"> Features</a>
+                <a href="#" class="list-group-item"> We</a>
+                <a href="#" class="list-group-item"> Contact</a>
+            </ul>
+        </div>
+        <div class="jumbotron footer-con p-3">
+            <h6 class="footer-con-title">Title</h6>
+
+            <ul class="list-group">
+                <a href="#" class="list-group-item">Cras justo odio</a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
