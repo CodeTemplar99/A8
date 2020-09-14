@@ -487,6 +487,10 @@ nav .container {
         width: 50%;
         border: 1px solid #dee2e6 !important;
     }
+
+    .arrow-con {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -531,9 +535,6 @@ nav .container {
 
     }
 
-    .arrow-con {
-        display: none;
-    }
 
     #our_service-con {
         width: 100%;
