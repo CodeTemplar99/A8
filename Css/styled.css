@@ -470,6 +470,11 @@ nav .container {
     }
 
     /* - - - - - - - - - - - - - - -  */
+
+    .s1 .lead {
+        font-size: 3rem;
+    }
+
     .feature_box {
         background: white;
         width: 28%;
@@ -514,14 +519,14 @@ nav .container {
         /* border: 1px solid red; */
         width: 100%;
         height: 45vh;
-        background: url("/images/pngguru.com.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
+
     .s1_text_con :first-child {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 1.3;
         font-weight: bold;
         word-wrap: break-word;
@@ -529,7 +534,7 @@ nav .container {
     }
 
     .s1-detail {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 300;
         text-align: center;
 
@@ -634,6 +639,18 @@ nav .container {
         height: auto;
         display: flex;
         justify-content: center;
+    }
+
+    #our_service-con .lead{
+        font-size: 170%;
+        font-weight: bolder;
+    }
+
+    .s2-flex-right{
+        padding: 0px !important;
+    }
+    .s2-detail{
+        width: 100% !important;
     }
 
     .feature_box {
