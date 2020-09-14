@@ -269,6 +269,11 @@ nav .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("/images/undraw_working_late_pukg.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    /* background-attachment: fixed; */
 }
 
 .strip-lead {
@@ -575,6 +580,8 @@ nav .container {
         font-size: 1.2rem;
     }
 
+
+
     .strip-lead {
         font-size: 3rem;
         font-weight: 400;
@@ -641,15 +648,16 @@ nav .container {
         justify-content: center;
     }
 
-    #our_service-con .lead{
+    #our_service-con .lead {
         font-size: 170%;
         font-weight: bolder;
     }
 
-    .s2-flex-right{
+    .s2-flex-right {
         padding: 0px !important;
     }
-    .s2-detail{
+
+    .s2-detail {
         width: 100% !important;
     }
 

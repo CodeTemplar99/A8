@@ -95,6 +95,20 @@
     color: #00c3ff91;
 }
 
+.strip {
+    height: 60vh;
+    background: #00729b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/undraw_deliveries_131a.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    /* background-attachment: fixed; */
+}
+
 @media screen and (max-width:2560px) {
     .s1_text_con {
         width: 50%;
@@ -296,9 +310,10 @@
         margin: 10px !important;
     }
 
-.like-to{
-    font-size: 130%;
-}
+    .like-to {
+        font-size: 130%;
+    }
+
     .value-boxes {
         width: 100%;
     }
